@@ -92,7 +92,8 @@ open class PaperOnboardingEngine/**
                 toggleContent(true)
             }
         })
-        mRootLayout.viewTreeObserver.addOnGlobalLayoutListener(object:ViewTreeObserver.OnGlobalLayoutListener() {
+        mRootLayout.viewTreeObserver.addOnGlobalLayoutListener(object:
+            ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
                 {
