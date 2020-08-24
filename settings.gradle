@@ -1,0 +1,3 @@
+rootProject.name='Swipeable Intro Library'
+include ':app'
+include ':app:swipeableintrolibrary'
